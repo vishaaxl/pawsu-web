@@ -125,7 +125,7 @@ const OwnerDetails = styled.div`
 
   .icon {
     margin-left: 0.85rem;
-    font-size: 1.75rem;
+    font-size: 2rem;
     color: ${({ theme }) => theme.purple};
 
     &:last-child {
@@ -164,7 +164,7 @@ export default function Pet() {
       <Content>
         <PetDetails>
           <div className="line-one">
-            <span>Rishabh</span>
+            <span>Charlie</span>
             <span className="gender">male</span>
           </div>
           <div className="line-two">
